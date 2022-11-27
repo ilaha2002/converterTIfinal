@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleTI.css" type="text/css">
+    <script src="./scriptTI.js" type="module"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>Converter</title>
+ </head>
+ <body>
+        <header>
+            <div class="menu">
+
+                <button class="menuButton"><img src="menu.jpg" class="menuImg"></button>
+                    <div class="menu-content">
+                        <a href="#bank">БАНК</a>
+                        <a href="#biznes">БИЗНЕС</a>
+                        <a href="#invest">ИНВЕСТИЦИИ</a>
+                        <a href="#strax">СТРАХОВАНИЕ</a>
+                        <a href="#mob">МОБАЙЛ</a>
+                        <a href="#put">ПУТЕШЕСТВИЯ</a>
+                        <a href="#razvlech">РАЗВЛЕЧЕНИЯ</a>
+                    </div>
+
+            </div>
+
+            <div>
+                <img src="bank.svg" class="bankImg" alt="bankImg">
+            </div>
+
+            <div id="menu">
+                    <p style="color: black">БАНК</p>  
+                    <p>БИЗНЕС</p>
+                    <p>ИНВЕСТИЦИИ</p>
+                    <p>СТРАХОВАНИЕ</p>
+                    <p>МОБАЙЛ</p>
+                    <p>ПУТЕШЕСТВИЯ</p>
+                    <p>РАЗВЛЕЧЕНИЯ</p>
+            </div>
+
+            <div class="login">
+                <button id="logIn">ВОЙТИ</button>
+            </div>
+
+
+        </header>
+
+
+     <section>
+
+        <h1>Конвертер валют онлайн</h1>
+
+        <div id="push">
+
+            <div id="input-show">
+
+                <p class="big">У меня есть</p>
+
+                <div id="convert">
+                    <button class="converT first-first inputShow">RUB</button>
+                    <button class="converT first-second inputShow">USD</button>
+                    <button class="converT first-third inputShow">TR</button>
+                    <button class="converT first-fourth inputShow">GBP</button>
+                </div>
+
+                <div id="input-show-write">
+                    <input id="inPut" type="text">
+                    
+                </div>
+
+            </div>
+
+            <div id="show-input">
+
+                <p class="big">Хочу приобрести</p>
+
+                <div id="convert">
+                    <button class="converT second-first showInput">RUB</button>
+                    <button class="converT second-second showInput">USD</button>
+                    <button class="converT second-third showInput">TR</button>
+                    <button class="converT second-fourth showInput">GBP</button>
+                </div>
+
+                <div id="show-input-write">
+                    <input id="inPut" type="text">
+                    <p></p>
+                </div>
+
+            </div>
+
+        </div>
+     </section>
+
+  </body>
+</html>
