@@ -18,6 +18,9 @@ header{
     background-color: #E5E5E5;
 }
 #menu{
+    font-style: bold;
+    font-weight: 300;
+    margin: 20px;
     display: flex;
     flex-direction: row;
 }
@@ -49,6 +52,7 @@ section{
     height: 105px;
     border: 1px solid #E5E5E5;
     border-radius: 3px;
+    border-radius: 10px;
 }
 input{
     font-size: 24px;
@@ -63,11 +67,15 @@ section h1{
     font-weight: 900;
 
     margin-top: 80px;
-    margin-left: -210px;
+    margin-left: -220px;
     font-family: Roboto, sans-serif;
     font-weight: 900;
 
 }
+.lower {
+    margin: 10px;
+}
+
 #push{
     font-size: 12px;
     display: flex;
@@ -87,10 +95,10 @@ section h1{
     font-family: 'Roboto';
 }
 .first-first, .second-first{
- border-radius: 3px 0px 0px 3px;
+ border-radius: 10px 0px 0px 10px;
 }
 .first-fourth, .second-fourth{
- border-radius: 0px 3px 3px 0px;
+ border-radius: 0px 10px 10px 0px;
 }
 #input-show{
     margin-right: 100px;
@@ -116,7 +124,7 @@ section h1{
     height: 20px;
 }
 .menuButton {
-    background-color: #833AE0;
+    background-color: #be94f5;
     border: none;
 }
 .menu {
@@ -139,7 +147,7 @@ section h1{
 }
 .menu-content a:hover {background-color: #ddd;}
 .menu:hover .menu-content {display: block;}
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 852px) {
     header p{
         font-weight: 500;
         font-size: 9px;
@@ -156,7 +164,7 @@ section h1{
         height: 100%;
     }
 }
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 778px) {
     #menu{
         display: none;
     }
@@ -168,9 +176,10 @@ section h1{
     }
 
 }
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 680px) {
     section h1{
         font-size: 26px;
+        margin-right: -250px;
     }
     .menu{
         display: block;
@@ -190,7 +199,7 @@ section h1{
         margin-left: 40px;
     }
 }
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 680px) {
     header{
         width: 115vw;
     }
